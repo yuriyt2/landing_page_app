@@ -1,0 +1,5 @@
+<h1>All Pages</h1>
+
+<%@pages.each do |page|%>
+<%=link_to page.title, page_path(page)%>
+<%end%>
